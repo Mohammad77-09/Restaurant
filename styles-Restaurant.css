@@ -1,0 +1,115 @@
+body {
+  line-height: 1.5;
+  font-size: 0.85rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-transform: none;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+
+p {
+  margin-bottom: 1.25rem;
+}
+
+.btn {
+  text-transform: uppercase;
+  background: transparent;
+  padding: 0.375rem 0.75rem;
+  display: inline-block;
+  font-size: 0.875rem;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: white;
+  background: black;
+}
+
+.btn:hover {
+  color: white;
+  background: black;
+}
+
+.menu {
+  padding: 5rem 0;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+.underline {
+  width: 5rem;
+  height: 0.25rem;
+  background: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.filter-btn {
+  background: blue;
+  border-color: ivory;
+  font-size: 1rem;
+  margin: 0 0.5rem;
+  color: white;
+  cursor: grab;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+
+.filter-btn:hover {
+  background: aliceblue;
+  color: black;
+}
+
+.filter-btn::selection {
+  background-color: aliceblue;
+  color: black;
+}
+
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: grid;
+  gap: 3rem 2rem;
+  justify-items: center;
+}
+
+.menu-item {
+  display: grid;
+  gap: 1rem 2rem;
+  max-width: 25rem;
+}
+
+.photo {
+  object-fit: cover;
+  height: 200px;
+  border: 0.1rem dotted white;
+  border-radius: 5px;
+}
+
+.item-info header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-info h4 {
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  color: darkblue;
+}
+
+.item-text {
+  margin-bottom: 0px;
+  padding-top: 1rem;
+}
